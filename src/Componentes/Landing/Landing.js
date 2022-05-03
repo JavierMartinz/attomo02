@@ -13,12 +13,12 @@ import icon07 from '../../Assets/Icons/Mobile/Slider.svg';
 function Landing() {
   return (
     <section>
-        
+
         <ParallaxModule/>
 
         <div className='landing-last'>
           <div className='landing-last-container'>
-            <h2>información práctica</h2>
+            <h2 id="usefulInfo">información práctica</h2>
 
             <div className='landing-div'>
               <img className='list-icon' src={icon01} alt=''/>
@@ -28,7 +28,7 @@ function Landing() {
                      <p>Viernes:&nbsp;<b>16:00h y 17:00h</b></p>
                      <p>Sábado:&nbsp;<b>11:00h y 12:00h</b></p>
                 </div>
-                
+
               </div>
             </div>
 
@@ -39,7 +39,7 @@ function Landing() {
 
             <div className='landing-div'>
               <img className='list-icon' src={icon03} alt=''/>
-              <div>  
+              <div>
                 <p><b>Lugar:&nbsp;</b>Estadio Nuevo Los Cármenes</p>
                 <p><b>Punto de encuentro:&nbsp;</b>Tienda del estadio</p>
               </div>
@@ -47,7 +47,7 @@ function Landing() {
 
             <div className='landing-div'>
               <img className='list-icon' src={icon03} alt=''/>
-              <div className='landing-desktop'>  
+              <div className='landing-desktop'>
                 <p><b>Lugar:&nbsp;</b></p>
                 <div>
                   <p>Estadio Nuevo Los Cármenes</p>
@@ -86,11 +86,11 @@ function Landing() {
                 con hola@bstadium.es</p>
                 </div>
               </div>
-              
+
             </div>
           </div>
         </div>
-        
+
     </section>
   )
 }
